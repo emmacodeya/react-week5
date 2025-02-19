@@ -218,7 +218,7 @@ const ckeckout = async (data) => {
           </tbody>
         </table>
 
-        <div
+        {/* <div
           ref={productModalRef}
           style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
           className="modal fade"
@@ -280,7 +280,7 @@ const ckeckout = async (data) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         
        {cart.carts?.length > 0 && ( <div>
         <div className="text-end py-3">
